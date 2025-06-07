@@ -15,6 +15,6 @@ This chatbot solves a real-world problem by helping NYC residents find convenien
 The chatbot uses a Retrieval-Augmented Generation (RAG) approach:
 
 * Data Preparation: NYC food scrap site data is processed into searchable text descriptions
-* Embedding Creation: OpenAI's text-embedding-ada-002 converts text into vector representations
+* Embedding Creation: OpenAI's text-embedding-3-small converts text into vector representations
 * Similarity Search: User queries are matched against site embeddings using cosine similarity
-* Context-Aware Response: Relevant site information is used as context for GPT-3.5-turbo responses
+* Context-Aware Response: Relevant site information is used as context for GPT-4o responses
